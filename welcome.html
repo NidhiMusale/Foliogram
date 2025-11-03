@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Foliogram — Dashboard</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <h1>Foliogram</h1>
+      <a class="navlink" href="index.html">Login</a>
+      <a class="navlink" href="templates.html">Templates</a>
+      <a class="navlink active" href="welcome.html">Dashboard</a>
+      <a class="navlink" href="configure.html">Builder</a>
+      <a class="navlink" href="calendar.html">Calendar</a>
+      <a class="navlink" href="appointments.html">Appointments</a>
+      <a class="navlink" href="analytics.html">Analytics</a>
+    </aside>
+
+    <main class="container">
+      <div class="topbar">
+        <div class="page-title">Welcome</div>
+        <div class="actions">
+          <a class="button" href="configure.html">Create new portfolio</a>
+        </div>
+      </div>
+
+      <section class="grid cols-3">
+        <div class="card">
+          <h3>My Portfolios</h3>
+          <div style="margin-top:12px">
+            <div class="portfolio-item">
+              <div style="flex:1">
+                <h4>My First Portfolio</h4>
+                <p>Short summary that describes the portfolio.</p>
+              </div>
+              <div><a class="button" href="portfolio.html">View</a></div>
+            </div>
+
+            <div class="portfolio-item" style="margin-top:10px">
+              <div style="flex:1">
+                <h4>Design Works</h4>
+                <p>Grid-based design case studies.</p>
+              </div>
+              <div><a class="button" href="portfolio.html">View</a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Templates</h3>
+          <p class="small">Quick access to templates</p>
+          <div style="margin-top:12px" class="preview">Template previews</div>
+        </div>
+
+        <div class="card">
+          <h3>Upcoming Appointments</h3>
+          <table class="table">
+            <thead><tr><th>Client</th><th>Time</th></tr></thead>
+            <tbody>
+              <tr><td>John Doe</td><td>Nov 04, 10:00</td></tr>
+              <tr><td>Jane Smith</td><td>Nov 05, 15:00</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

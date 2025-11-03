@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Foliogram — Login</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <h1>Foliogram</h1>
+      <a class="navlink" href="index.html">Login</a>
+      <a class="navlink" href="signup.html">Sign up</a>
+      <a class="navlink" href="welcome.html">Dashboard</a>
+      <a class="navlink" href="templates.html">Templates</a>
+      <a class="navlink" href="configure.html">Builder</a>
+      <a class="navlink" href="portfolio.html">Public portfolio</a>
+      <a class="navlink" href="calendar.html">Calendar</a>
+      <a class="navlink" href="appointments.html">Appointments</a>
+      <a class="navlink" href="blog.html">Blog</a>
+      <a class="navlink" href="profile.html">Profile</a>
+      <a class="navlink" href="analytics.html">Analytics</a>
+    </aside>
+
+    <main class="container">
+      <div class="topbar">
+        <div class="page-title">Login</div>
+        <div class="actions">
+          <a class="button secondary" href="signup.html">Create account</a>
+        </div>
+      </div>
+
+      <section class="card" style="max-width:480px">
+        <form action="welcome.html" method="get">
+          <div class="form-row">
+            <label class="small">Email</label>
+            <input class="input" type="email" required placeholder="you@example.com" />
+          </div>
+          <div class="form-row">
+            <label class="small">Password</label>
+            <input class="input" type="password" required placeholder="•••••••" />
+          </div>
+          <div style="display:flex; gap:10px">
+            <button class="button">Login</button>
+            <a class="button secondary" href="signup.html">Sign up</a>
+          </div>
+        </form>
+        <p class="small" style="margin-top:12px">This is a static demo — forms navigate to pages locally.</p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

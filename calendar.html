@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Foliogram — Calendar</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <h1>Foliogram</h1>
+      <a class="navlink" href="welcome.html">Dashboard</a>
+      <a class="navlink active" href="calendar.html">Calendar</a>
+      <a class="navlink" href="appointments.html">Appointments</a>
+    </aside>
+
+    <main class="container">
+      <div class="topbar">
+        <div class="page-title">Calendar & Booking</div>
+      </div>
+
+      <section class="card">
+        <h3>Available slots</h3>
+        <div style="display:flex; gap:12px; margin-top:12px; flex-wrap:wrap">
+          <div class="preview" style="height:60px; width:140px">09:00</div>
+          <div class="preview" style="height:60px; width:140px">10:00</div>
+          <div class="preview" style="height:60px; width:140px">11:00</div>
+          <div class="preview" style="height:60px; width:140px">13:00</div>
+          <div class="preview" style="height:60px; width:140px">15:00</div>
+        </div>
+
+        <div style="margin-top:12px" class="small">Integrate a calendar library (FullCalendar, react-big-calendar) in a dynamic app.</div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
