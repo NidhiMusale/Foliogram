@@ -1,0 +1,25 @@
+.site-header{
+  background: linear-gradient(90deg, rgba(255,255,255,0.9), rgba(255,255,255,0.85));
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+.site-header .container{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 12px 20px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.brand{
+  font-weight:700;
+  letter-spacing:1px;
+}
+.nav a{
+  margin-left:16px;
+  text-decoration:none;
+  color:inherit;
+  font-weight:500;
+}
